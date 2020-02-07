@@ -10,3 +10,44 @@ light blue background: #E6ECF4;
 clear button: #DE4841;
 clear button disabled: #D0CDCD
 */
+
+h1 {
+  font-family: 'Life Savers', cursive;
+  text-align: center;
+  color: #2B4E80;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.question-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #E6ECF4;
+}
+
+#eight-ball {
+  width: 35%
+}
+
+#woody {
+  width: 20%;
+}
+
+input {
+  font-size: 20px;
+  padding: 10px 40px;
+  margin-top: 15px;
+}
+
+#answer-button {
+  font-size: 15px;
+  color: white;
+  margin: 10px;
+  width: 280px;
+  background-color: #2B4E80;
+}
